@@ -279,8 +279,8 @@ outputs_path = "outputs/"
 try:
     drive_path = "/content/drive"
     if os.path.exists(drive_path):
-      models_path_gdrive = "/content/drive/MyDrive/AI/models"
-      output_path_gdrive = "/content/drive/MyDrive/AI/StableDiffusion"
+      models_path_gdrive = "/content/drive/MyDrive/AI/models/"
+      output_path_gdrive = "/content/drive/MyDrive/AI/StableDiffusion/"
       os.makedirs(models_path_gdrive, exist_ok=True)
       os.makedirs(output_path_gdrive, exist_ok=True)
       outputs_path = output_path_gdrive
