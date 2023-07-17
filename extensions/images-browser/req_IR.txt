@@ -1,0 +1,7 @@
+datasets
+diffusers
+dill
+fairscale
+multiprocess
+pyarrow
+xxhash
