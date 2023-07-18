@@ -287,7 +287,6 @@ try:
 except:
     print("...error mounting drive or with drive path variables")
     print("...reverting to default path variables")
-    
 options_templates.update(options_section(('saving-paths', "Paths for saving"), {
     "outdir_samples": OptionInfo("", "Output directory for images; if empty, defaults to three directories below", component_args=hide_dirs),
     "outdir_txt2img_samples": OptionInfo(outputs_path + "txt2img-images", 'Output directory for txt2img images', component_args=hide_dirs),
