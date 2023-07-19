@@ -8,3 +8,5 @@
 - add check type of GPU
 - add download models from Huggingface or Civitai
 - add save outputs to GDrive
+
+bla bla
